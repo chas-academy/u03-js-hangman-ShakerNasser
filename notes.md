@@ -13,3 +13,12 @@ Börja med att lära sig mer om:
       return wordArr[Math.floor(Math.random() * wordArr.length)];
     }
 ```
+
+ <ul>
+                    <li><input type="text" disabled value="C" /></li>
+                    <li><input type="text" disabled value="H" /></li>
+                    <li><input type="text" disabled value="A" /></li>
+                    <li><input type="text" disabled value="S" /></li>
+                    <li><input type="text" disabled value="&nbsp;"  /></li>
+                    <li><input type="text" disabled value="&nbsp;"  /></li>
+                </ul>
