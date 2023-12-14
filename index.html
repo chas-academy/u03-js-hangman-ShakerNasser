@@ -3,14 +3,14 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Hangman</title>
+    <title>Välkommen - Hangman</title>
     <link rel="stylesheet" type="text/css" href="css/styles.css">
-    <script src="js/script.js"></script>
+    <script src="js/script.js" defer></script>
 </head>
 
 <body>
     <header>
-        <h1>Uppgift 03 - Hangman</h1>
+        <h1> Uppgift 03 - Hangman</h1>
     </header>
     <main>
         <article>
@@ -21,7 +21,7 @@
                För varje bokstav du gissar rätt, så fylls dyker det upp en bokstav i på den plats som bokstaven du gissade på motsvarar i ordet.
             </p>
         </article>
-        <button class="btn btn--stripe" type="button" id="startGameBtn">Starta spelet</button>
+        <button class="btn btn--stripe" type="button" id="startGameBtn">Starta/ starta om spelet</button>
         <section id="gameBoard">
             <ul id="letterButtons">
                 <li><button class="btn btn--stripe" type="button" value="A">A</button></li>
@@ -57,14 +57,10 @@
             <section id="letterBoxes">
                 <!-- This is where the matched letters should appear, these should match the number of letters in the selected word -->
                 <ul>
-                    <li><input type="text" disabled value="" /></li>
-                    <li><input type="text" disabled value="" /></li>
-                    <li><input type="text" disabled value="" /></li>
-                    <li><input type="text" disabled value="" /></li>
-                    <li><input type="text" disabled value=""  /></li>
-                    <li><input type="text" disabled value=""  /></li>
+                    <!-- Dynamiskt genererade letter boxes kommer att läggas till här av JavaScript -->
                 </ul>
             </section>
+
             <img id="hangman" src="images/h0.png" alt="hangman">
         </section>
         <section id="message">

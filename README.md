@@ -23,13 +23,7 @@ Skulle det nu fortfarande kännas helt omöjligt kan du kika på förslagen neda
 - Definiera lite ord som spelaren ska gissa på i arrayen `wordList`.
 - Använd `document.querySelector()` för att hämta knappen "Starta Spelet" i DOM, lagra den i `startGameBtnEl` variabeln.
 - Skapa en event-lyssnare för knappen (`.addEventListener('click', callbackFn)`).
-- Skapa en callback-funktion `startGame()` för event-lyssnaren, denna funktion ska starta spelet. Det gör den genom att ropa på andra funktioner:
-  1. Skapa en funktion, kalla den för `generateRandomWord()`
-      - Inuti denna funktion returnera ett slumpat ord ur arrayen av ord (`wordList`):
-
-      ```js
-        wordList[Math.floor(Math.random()*wordList.length)];
-      ```
+-
   2. Skapa en funktion, kalla den för `createLetterBoxes()`
     - Inuti denna funktion:
       - Använd `document.querySelector()` för att hämta `#letterBoxes > ul`, lagra det i variablen `letterBoxEls`.
