@@ -1,26 +1,26 @@
 // Variabler i global Scope
 const wordList = ["APA", "DELFIN", "HUND", "MUS", "KATT", "ZEBRA", "PANDA"];
-// save the randomly generated word
+// Spara det slumpmässigt genererade ordet
 let selectedWord = null;
-// number of wrong guesses made
+// Antal felgissningar gjorda
 let wrongGuesses = 0;
-// number of wrong guesses left before losing
+// Antal felgissningar kvar innan förlust
 let wrongGuessesLeft = 6;
-// number of correct letters
+// Antal korrekta bokstäver
 let correctLetters = 0;
-// DOM-node: hangman image
+// DOM-nod: hänga mannen-bild
 const hangmanImgEl = document.querySelector("#hangman");
-// DOM-node: where messages show up
+// DOM-nod: där meddelanden visas
 const msgHolderEl = document.querySelector("#message");
-// DOM-node: button to start game
+// DOM-nod: knapp för att starta spelet
 const startGameBtnEl = document.querySelector("#startGameBtn");
-// DOM-node: message element
+// DOM-nod: meddelandeelement
 const messageEl = document.querySelector("#message");
-// DOM-node: message element
+// DOM-nod: meddelandeelement
 const letterButtons = document.querySelectorAll("#letterButtons button");
-// DOM-nodeList: letter buttons
+// DOM-nodLista: bokstavsknappar
 let letterBoxEls = document.querySelectorAll("#letterBoxes li");
-// DOM-nodeList: letter boxes
+// DOM-nodLista: bokstavslådor
 const letterBoxContainerEl = document.querySelector("#letterBoxes ul");
 // Lägg till en event-lyssnare för knappklick
 startGameBtnEl.addEventListener("click", startGame);
