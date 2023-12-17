@@ -1,5 +1,5 @@
 // Variabler i global Scope
-const wordList = ["APA", "DELFIN", "HUND", "MUS", "KATT", "ZEBRA", "PANDA"];
+const wordList = ["APA", "PINGVIN", "STRUTS", "BAGGE", "KATT", "GORILLA", "PANDA"];
 // Spara det slumpmässigt genererade ordet
 let selectedWord = null;
 // Antal felgissningar gjorda
