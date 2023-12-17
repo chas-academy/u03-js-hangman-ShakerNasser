@@ -62,11 +62,13 @@ main > article {
   align-items: center;
   font-family: cursive;
   color: rgb(51, 23, 23);
+  font-size: 27px;
 }
 
 main > article > button {
   align-content: center;
   justify-content: center;
+  
 }
 
 main > article > h2 {
@@ -86,7 +88,7 @@ footer {
   margin-top: 20px;
   padding-top: 30px;
   color: #d66c6c;
-  font-size: 2.25em;
+  font-size: 3.25em;
   width: 100%;
   flex: none;
   text-align: center;
@@ -96,10 +98,12 @@ footer {
 
 #startGameBtn {
   font-size: 1.5em;
+  font-family: cursive;
 }
 
 #gameBoard {
   padding: 10px 0;
+  font-family: cursive;
 }
 
 #letterButtons {
@@ -226,9 +230,4 @@ footer {
     transparent 5px
   );
   border-top: 1px solid #000;
-}
-
-@media (max-width: 390px) and (min-height: 844px){
-
-
 }
