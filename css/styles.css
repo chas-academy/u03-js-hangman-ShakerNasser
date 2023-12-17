@@ -46,7 +46,6 @@ main > article {
   flex-direction: column;
   padding: 1.5em;
   align-items: center;
-  font-family: cursive;
   color: rgb(51, 23, 23);
   font-size: 27px;
 }
@@ -60,7 +59,6 @@ main > article > h2 {
   text-align: center;
   color: rgb(51, 23, 23);
   margin-bottom: 1.5em;
-  font-family: cursive;
 }
 
 ul {
@@ -72,7 +70,7 @@ footer {
   border-top: 1px solid #666;
   margin-top: 20px;
   padding-top: 30px;
-  color: #d66c6c;
+  color: #fff;
   font-size: 3.25em;
   width: 100%;
   flex: none;
@@ -82,12 +80,10 @@ footer {
 
 #startGameBtn {
   font-size: 1.5em;
-  font-family: cursive;
 }
 
 #gameBoard {
   padding: 10px 0;
-  font-family: cursive;
 }
 
 #letterButtons {
