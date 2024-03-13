@@ -1,21 +1,20 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/2AUaTqJD)
-# Uppgift - Hangman
+# Task - Hangman 
 
-Den här uppgiften går ut på att individuellt implementera ett populärt rudimentärt spel i JavaScript - "hänga gubbe". Som stöd kommer det finnas kod och en struktur att utgå ifrån vilken du kan ta till hjälp när du ska lösa uppgiften.
+This task involves individually implementing a popular rudimentary game in JavaScript - "Hangman". There will be code and a structure available to use as a reference while solving the task.
 
-Hänga gubbe, är ett spel där det ord slumpas fram. Spelaren gissar sedan vilka bokstäver som ordet innehåller, för varje fel svar ritas en del av "hänga gubbe"-bilden upp. Om spelaren gissar fel tillräckligt många gånger och gubben har blivit "hängd" så har spelaren förlorat. Lyckas däremot spelaren gissa alla bokstäver så vinner spelaren.
+Hangman is a game where a word is randomly chosen. The player then guesses which letters the word contains, and for each incorrect guess, a part of the "hangman" image is drawn. If the player guesses wrong enough times and the hangman has been "hanged", the player loses. However, if the player manages to guess all the letters, they win.
 
-# Krav:
+# Requirements:
 
-Ett fungerande spel i JavaScript som kan spelas på en webbplats.
-Fungerar i olika webbläsare och på olika enheter (mobil och skrivbord).
-Grundläggande responsivitet.
-Knappar för alla bokstäver.
-Visuell representation av hängd mannen (spelets förlopp).
+A functioning game in JavaScript that can be played on a website.
+Works in various browsers and on different devices (mobile and desktop).
+Basic responsiveness.
+Buttons for all letters.
+Visual representation of the hangman (game progression).
 
-## Koden bör:
+## The code should:
 
-Följa definierad standard.
-Ha korrekt indentering.
-Orsaka inte fel vid körning.
-Vara omfattande kommenterad (i kod, markup och stil).
+Follow defined standards.
+Have correct indentation.
+Not cause errors when executed.
+Be extensively commented (in code, markup, and style).
